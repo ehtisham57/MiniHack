@@ -1,0 +1,16 @@
+[
+    {
+        "firstName": "Jali",
+        "lastName": "Mulla",
+        "id": 1,
+        "email": "jalimulla@gmail.com",
+        "password": "$2a$12$yZlNw7qudm/H0/Q6dYlpKOPuCLnsPxyACptPkhMUAmxaSyHDCjf2S"
+    },
+    {
+        "firstName": "Ali",
+        "lastName": "HaIDER",
+        "id": 2,
+        "email": "ali@gmail.com",
+        "password": "$2a$12$XME4W2pK45oHOUE0dgEFO.teefV/L/umB91efjC7kyXTwlW5fRaje"
+    }
+]
