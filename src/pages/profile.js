@@ -1,6 +1,8 @@
 import { getSession, signOut } from "next-auth/react"
 import { useRef, useState, useEffect } from "react";
+import img from "../images/myimg.jpg"
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SignUp({ onFormSubmit }) {
   const titleRef = useRef();
@@ -93,10 +95,17 @@ export default function SignUp({ onFormSubmit }) {
 
         <div className="grid mb-12 md:mb-12 md:grid-cols-1 px-1">
           <div className=" flex px-1 flex-row justify-between">
-            <h1 className='mb-2 text-2xl font-bold text-gray-900 dark:text-black py-2'>Dashboard</h1>
+            <h1 className='mb-2 text-3xl font-bold text-gray-900 dark:text-black py-2'>DASH BOARD</h1>
+            <Link
+            href={"/ProfilePage"}
+              className="items-right outline-double hover:text-amber-400 text-black font-bold focus:ring-2 focus:ring-gray-300 rounded-lg text-sm px-5  lg:py-2 focus:outline-none">
+              Your Ptofile Is Here
+            </Link>
+
             <button onClick={signOut}
               className="items-right hover:text-amber-400 text-black bg-amazon_blue dark:text-white focus:ring-2 focus:ring-gray-300 font-medium rounded-lg text-sm px-5  lg:py-2 focus:outline-none">
-              Log out</button>
+              Log out
+            </button>
           </div>
 
 
@@ -127,8 +136,8 @@ export default function SignUp({ onFormSubmit }) {
 
             <div key={index} className=" shadow-lg shadow-amber-600/50 mx-10 my-3 flex flex-col items-left justify-left p-8 text-left border-amazon_light rounded-b-lg ">
               <div className="flex items-left justify-left space-x-3">
-                <Image className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture" />
-                <div className="space-y-0.5 font-medium dark:text-black text-left">
+              <Image className="rounded-full w-9 h-9" src={img} alt="profile picture" />
+              <div className="space-y-0.5 font-medium dark:text-black text-left">
                   <div>{row.title}</div>
                   <div className="text-sm text-black dark:text-black">{row.formattedDate}</div>
                 </div>
