@@ -1,16 +1,1 @@
-[
-    {
-        "firstName": "Jali",
-        "lastName": "Mulla",
-        "id": 1,
-        "email": "jalimulla@gmail.com",
-        "password": "$2a$12$yZlNw7qudm/H0/Q6dYlpKOPuCLnsPxyACptPkhMUAmxaSyHDCjf2S"
-    },
-    {
-        "firstName": "Ali",
-        "lastName": "HaIDER",
-        "id": 2,
-        "email": "ali@gmail.com",
-        "password": "$2a$12$XME4W2pK45oHOUE0dgEFO.teefV/L/umB91efjC7kyXTwlW5fRaje"
-    }
-]
+[{"firstName":"syed ","lastName":"ehtisham","id":1,"email":"abc@gmail.com","password":"$2a$12$1Hn7orG2102DlZySsOupZO5cusff53DGB3n/VSJsRhYnr.E2cMwEy"}]

@@ -29,7 +29,7 @@ const BlogPost = () => {
         <div>
             <div className="grid mb-12 border md:mb-12 md:grid-cols-1">
                 <div className="justify-between items-center flex mb-12 md:mb-12 md:grid-cols-1 px-4">
-                    <h1 className='mb-2 text-4xl font-bold text-amber-500 dark:text-white py-4'>{greet()} Reader</h1>
+                    <h1 className='mb-2 text-4xl font-bold text-amber-500 dark:text-black py-4'>{greet()} Reader</h1>
                     <h6 className='mb-2 text-sm font-bold text-amber-500 dark:text-white py-2'>Today is {formattedDate}</h6>
 
                 </div>
